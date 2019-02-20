@@ -108,15 +108,15 @@ video {
 }
 
 .fa-github:hover {
-  color: yellow;
-}
-
-.fa-angellist:hover {
   color: red;
 }
 
-.fa-envelope:hover {
+.fa-angellist:hover {
   color: green;
+}
+
+.fa-envelope:hover {
+  color: yellow;
 }
 
 .page-wrap {
