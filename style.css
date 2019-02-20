@@ -50,7 +50,7 @@ video {
 	    transform: translate(-50%, -50%);
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .fullscreen-bg {
         background: url(./cofeeGlitched.jpg) center center / cover no-repeat;
     }
@@ -58,7 +58,7 @@ video {
     .fullscreen-bg__video {
         display: none;
     }
-}
+} */
 
 .container {
   margin-top: 210px;
