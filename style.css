@@ -6,10 +6,10 @@ body {
   margin: 0;
 }
 
-html {
+/* html {
   background: url(./coffee.jpg) no-repeat center center fixed;
   background-size: cover;
-}
+} */
 
 a {
   color: inherit;
@@ -17,6 +17,47 @@ a {
 
 p, h1 {
   color: white;
+}
+
+video {  
+    min-width: 100%;
+    min-height: 100%;
+    background: no-repeat center center fixed;
+    background-size: cover;
+ }
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url(./coffee.jpg) center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
 }
 
 .container {
@@ -28,6 +69,11 @@ p, h1 {
 }
 
 .text-header {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  margin: 0;
+}
+.text-footer {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1em;
   margin: 0;
@@ -74,7 +120,7 @@ p, h1 {
 }
 
 .page-wrap {
-  margin-top: 220px;
+  /* margin-top: 220px; */
   display: flex;
   flex-direction: column;
   justify-content: center;

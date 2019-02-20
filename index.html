@@ -1,5 +1,4 @@
-<!doctype html>
-<html>
+<!doctype html />
 
 <head>
     <link href="./style.css" rel="stylesheet" type="text/css">
@@ -20,7 +19,13 @@
 
 <body>
     <div class="page-wrap" id="main">
-        <p class="text-name">Vince Vuong</p>
+        <div class="fullscreen-bg">
+            <video autoplay loop muted>
+                <source src="./coffee_glitched.webm" type="video/webm" />
+            </video>
+        </div>
+
+        <h1 class="text-header">Vince Vuong</h1>
         <p class="text-description">Software Engineer | San Diego, CA</p>
         <div class="buttons-container">
             <a href="https://www.linkedin.com/in/vuongvincent/" id="linkedin">
@@ -36,9 +41,9 @@
                 <i class="fas fa-envelope"></i>
             </a>
         </div>
-        <br/>
+        <br />
 
-        <h1 class="text-header">@vincevuong</h1>
+        <p class="text-footer">@vincevuong</p>
     </div>
     <script src="./bundle.js"></script>
 </body>
