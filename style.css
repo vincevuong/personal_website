@@ -50,15 +50,16 @@ video {
 	    transform: translate(-50%, -50%);
 }
 
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
     .fullscreen-bg {
-        background: url(./coffee.jpg) center center / cover no-repeat;
+        /* background: url(./coffee.jpg) center center / cover no-repeat; */
+        width: 100px;
     }
 
-    .fullscreen-bg__video {
+    /* .fullscreen-bg__video {
         display: none;
-    }
-} */
+    } */
+}
 
 .container {
   margin-top: 210px;
