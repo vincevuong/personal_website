@@ -126,3 +126,13 @@ video {
   justify-content: center;
   align-items: center;
 }
+
+.m-video {
+	background-color: #000000;
+	position: relative;
+}
+
+.m-video__video {
+	display: block;
+	width: 100%;
+}
