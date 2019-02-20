@@ -28,30 +28,50 @@ video {
 
 .fullscreen-bg {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
     z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
 }
 
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+}
 
-
-/* @media (max-width: 200px) {
+/* @media (min-aspect-ratio: 16/9) {
     .fullscreen-bg {
-        background: url(./cofeeGlitched.jpg) center center / cover no-repeat;
+        height: 300%; top: -100%;
     }
+  } */
 
-    .fullscreen-bg__video {
-        display: none;
+@media only screen 
+and (device-width : 375px) {
+    .fullscreen-bg {
+      height: 100%; 
+    left: -100%;
     }
-} */
+  }
+
+  @media only screen 
+  and (min-device-width : 375px) 
+  and (max-device-width : 667px) {
+    .fullscreen-bg {
+        height: 100%; 
+      left: -90%;
+      }
+  }
 
 .container {
   margin-top: 210px;
