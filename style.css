@@ -128,26 +128,26 @@ and (-webkit-device-pixel-ratio : 3){
   color: white;
 }
 
-.fa-linkedin-in {
+.fa-linkedin-in:hover {
   color: #f9fb00;
 }
 
-.fa-github {
+.fa-github:hover {
   color: #02feff;
 }
 
-.fa-angellist {
+.fa-angellist:hover {
   color: #01ff00;
 }
 
-.fa-twitter {
+.fa-twitter:hover {
   color: #fd00fb;
 }
-.fa-medium {
+.fa-medium:hover {
   color: #fb0102;
 }
 
-.fa-envelope {
+.fa-envelope:hover {
     color: #0301fc;
   }
 
