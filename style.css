@@ -52,11 +52,11 @@ video {
 
 @media (max-width: 767px) {
     .fullscreen-bg {
-        /* background: url(./coffee.jpg) center center / cover no-repeat; */
+        background: url(./cofeeGlitched.jpg) center center / cover no-repeat;
         width: 100px;
     }
-
-    /* .fullscreen-bg__video {
+/* 
+    .fullscreen-bg__video {
         display: none;
     } */
 }
