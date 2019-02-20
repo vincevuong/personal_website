@@ -128,21 +128,28 @@ and (-webkit-device-pixel-ratio : 3){
   color: white;
 }
 
-.fa-linkedin-in:hover {
-  color: blue;
+.fa-linkedin-in {
+  color: #f9fb00;
 }
 
-.fa-github:hover {
-  color: red;
+.fa-github {
+  color: #02feff;
 }
 
-.fa-angellist:hover {
-  color: green;
+.fa-angellist {
+  color: #01ff00;
 }
 
-.fa-envelope:hover {
-  color: yellow;
+.fa-twitter {
+  color: #fd00fb;
 }
+.fa-medium {
+  color: #fb0102;
+}
+
+.fa-envelope {
+    color: #0301fc;
+  }
 
 .page-wrap {
   /* margin-top: 220px; */
