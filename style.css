@@ -6,10 +6,10 @@ body {
   margin: 0;
 }
 
-html {
+/* html {
   background: url(./coffee.jpg) no-repeat center center fixed;
   background-size: cover;
-}
+} */
 
 a {
   color: inherit;
